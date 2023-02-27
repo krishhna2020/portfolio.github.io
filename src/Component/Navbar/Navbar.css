@@ -1,0 +1,51 @@
+.navbar-wrraper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-l{
+    align-items: center;
+    flex: 1;
+    gap: 2rem;
+    display: flex;
+}
+.nav-name{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.nav-r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-weight: 400;
+    transition: 5s;
+}
+.n-list{
+    flex: 10;
+    cursor: pointer;
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style: none;
+    transition: 0.5s;
+  
+}
+.n-list>ul>Link >li:hover{
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+@media screen and (max-width:480px) {
+    .n-list{
+      display: none;
+    }
+    .n-buuon{
+        display: none;
+    }
+}
+ 

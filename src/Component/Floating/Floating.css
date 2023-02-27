@@ -1,0 +1,26 @@
+.mythumb{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    width: 12rem;
+    height: 4rem;
+    
+    
+}
+.mythumb>span{
+  
+ width: 100%;
+margin-top: 0.6rem;
+  
+}
+.sosi{
+    transform: scale(.7);
+    
+}
+.mythumb img{
+    padding: .2rem;
+}

@@ -1,0 +1,100 @@
+.Service{
+    display: flex;
+    margin: 5rem 1.5rem 5rem .3rem;
+    justify-content: space-between;
+    height: 100vh;
+}
+.Service-L{
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+}
+.Service-L span:nth-child(1){
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.Service-L span:nth-child(2){
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--orange)
+}
+.css-not{
+   margin-top: .6rem;
+   color: var(--gray);
+   font-size: 15px;
+   line-height: 18px;
+   letter-spacing: 1px;
+}
+
+
+.Service-R{
+    position: relative;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+.Service-R>*{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.cv-btn{
+    margin-top: 1.5rem;
+width: 8rem;
+}
+
+@media screen and (max-width:480px) {
+    .Service{
+        position: relative;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 0;
+        height: 70rem;
+        padding: 0;
+        margin-top: 5rem;
+    }
+
+    .card-section{
+       
+        align-items: center;
+        justify-content: center;
+        margin-left: -8rem;
+        margin-top: -12rem ;
+    }
+    .card-section1{
+      
+        align-items: center;
+        justify-content: center;
+        margin-left: 5.5rem;
+        margin-top: -6rem;
+    }
+
+    .card-section2{
+   
+        align-items: center;
+        justify-content: center;
+        margin-left: -12.5rem;
+        margin-top: 5rem;
+    }
+    .Service-L>span:nth-of-type(1){
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .Service-L>span:nth-of-type(2){
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .css-not{
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        color: var(--gray);
+    }
+    .Service-L>button{
+        margin: auto;
+        position: relative;
+        top: -5rem;
+    }
+}

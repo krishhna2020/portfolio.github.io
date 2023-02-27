@@ -1,0 +1,115 @@
+.intrto{
+    display: flex;
+    height: 90vh;
+    
+}
+.L-intro{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 5rem;
+    gap: 1.2rem;
+}
+
+.L-intro>span:nth-of-type(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.L-intro>span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.sosial-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+.sosial-i{
+    width: 2.2rem;
+}
+.R-intro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 2rem;
+    
+}
+.R-intro>*{
+    position: absolute;
+}
+.R-intro>:nth-child(1){
+    transform: scale(0.69);
+}
+.R-intro>:nth-child(2){
+    transform: scale(0.67);
+}
+.R-intro>:nth-child(3){
+    transform: scale(1.4);
+    top: 4.8rem;
+    left: 10.7rem;
+}
+
+
+
+  .R-intro :nth-child(4){
+    transform: scale(.5);
+    position: absolute;
+    left: -3rem;
+    top: -2rem;
+  }
+
+  @media screen and (max-width :480px){
+
+    .intrto{
+        flex-direction: column;
+        height: 45rem;
+        gap: -3rem;
+        margin-top: -3rem;
+    }
+    .R-intro{
+        transform: scale(0.7);
+        left: -3.9rem;
+    }
+    .floatingdiv{
+        margin-top: -5rem !important;
+        margin-left: .5rem;
+    }
+    .floatingdiv1{
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+    .L-intro>span:nth-of-type(1){
+        color: var(--black);
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .L-intro>span:nth-of-type(2){
+        color: var(--orange);
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .L-intro>span:nth-of-type(3){
+        color: var(--gray);
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .L-intro>button{
+        margin: auto;
+    }
+    .sosial-icons{
+        align-items: center;
+        margin: auto;
+    }
+
+
+  }
+
